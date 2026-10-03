@@ -1,0 +1,237 @@
+{
+  "users": [
+    {
+      "_id": "6601a1b2c3d4e5f678901234",
+      "name": "Eleanor Vance",
+      "email": "admin@example.com",
+      "password": "$2b$10$0/KYEHy6WoNKibvuuJqDX.kdOWROIrdVYzqIX1rCiYdcySo8QygB6",
+      "role": "admin",
+      "profileImage": "/uploads/avatar_editorial_author_1791021230534.jpg",
+      "bio": "Editor-in-chief & administrator. Writing about thoughtful engineering and editorial systems.",
+      "createdAt": "2026-01-15T09:00:00.000Z"
+    },
+    {
+      "_id": "6601a1b2c3d4e5f678901235",
+      "name": "Julian Thorne",
+      "email": "author@example.com",
+      "password": "$2b$10$0/KYEHy6WoNKibvuuJqDX.R77D.m/kkOZlN0Nhnf5AbF4T8hB7xhC",
+      "role": "user",
+      "profileImage": "/uploads/avatar_editorial_author_1791021230534.jpg",
+      "bio": "Staff essayist and full-stack software engineer. Obsessed with readable prose and high-performance databases.",
+      "createdAt": "2026-02-01T10:30:00.000Z"
+    },
+    {
+      "_id": "6601a1b2c3d4e5f678901236",
+      "name": "Keerthana R.",
+      "email": "user@example.com",
+      "password": "$2b$10$0/KYEHy6WoNKibvuuJqDX.pPVpxKvi89S3Iqh.C7DzD4e5Udl6wJa",
+      "role": "user",
+      "profileImage": "/uploads/profileImages/profile_test_avatar_1791021982786-330072171.jpg",
+      "bio": "Lifelong learner exploring the modern MERN stack and clean web architectures.",
+      "createdAt": "2026-02-14T14:20:00.000Z",
+      "profileImageFilename": "profile_test_avatar_1791021982786-330072171.jpg"
+    }
+  ],
+  "categories": [
+    {
+      "_id": "6602a1b2c3d4e5f678901201",
+      "name": "Technology",
+      "description": "Computing trends, architecture, and system hardware.",
+      "createdAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "_id": "6602a1b2c3d4e5f678901202",
+      "name": "Programming",
+      "description": "JavaScript, TypeScript, Node.js, and clean code techniques.",
+      "createdAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "_id": "6602a1b2c3d4e5f678901203",
+      "name": "Artificial Intelligence",
+      "description": "Autonomous agents, neural architectures, and intelligent systems.",
+      "createdAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "_id": "6602a1b2c3d4e5f678901204",
+      "name": "Web Development",
+      "description": "React, Express, REST APIs, and full-stack engineering.",
+      "createdAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "_id": "6602a1b2c3d4e5f678901205",
+      "name": "UI/UX",
+      "description": "Typography, layout math, accessibility, and visual hierarchy.",
+      "createdAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "_id": "6602a1b2c3d4e5f678901206",
+      "name": "Education",
+      "description": "Curriculum design, developer onboarding, and mentorship.",
+      "createdAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "_id": "6602a1b2c3d4e5f678901207",
+      "name": "Lifestyle",
+      "description": "Mindful productivity, slow writing, and focus rituals.",
+      "createdAt": "2026-01-01T00:00:00.000Z"
+    }
+  ],
+  "blogs": [
+    {
+      "_id": "6603a1b2c3d4e5f678901301",
+      "title": "The Art of the Monolith: Why Boring Tech Wins",
+      "content": "Software engineering often falls victim to the sirens of artificial complexity. We dismantle modular codebases into dozens of brittle microservices before finding product-market fit, only to spend our working hours orchestrating distributed transactions and debugging network latency.\n\nIn this long-form reflection, we explore the enduring power of unified web services: Node.js, Express, and local databases. When built with discipline, a single repository and coherent data model can serve millions of requests with sub-millisecond query performance and zero operational overhead.\n\n### The Illusion of Premature Scaling\nMost architectural bottlenecks are not solved by introducing network boundaries between your functions. They are solved by indexing your queries, caching high-read records, and preserving clear code boundaries inside the application container.\n\n### Simplicity as an Explicit Feature\nChoosing proven tools like Express and MongoDB gives your team something invaluable: cognitive clarity. Every developer understands where data lives, how requests are validated, and how to debug a failing route without needing an observability cluster. Embrace the craft of simplicity.",
+      "author": "6601a1b2c3d4e5f678901235",
+      "category": "6602a1b2c3d4e5f678901201",
+      "categoryName": "Technology",
+      "tags": [
+        "Architecture",
+        "Node.js",
+        "Engineering"
+      ],
+      "coverImage": "/uploads/hero_editorial_workspace_1791021169224.jpg",
+      "status": "published",
+      "likes": [
+        "6601a1b2c3d4e5f678901234",
+        "6601a1b2c3d4e5f678901236"
+      ],
+      "createdAt": "2026-02-18T11:00:00.000Z",
+      "updatedAt": "2026-02-18T11:00:00.000Z"
+    },
+    {
+      "_id": "6603a1b2c3d4e5f678901302",
+      "title": "Deep Work and the Morning Writing Ritual",
+      "content": "Before the screen lights up with notifications and message pings, the morning holds a quiet sanctuary. For writers and engineers alike, cultivating an undisturbed block of time is the prerequisite for deep intellectual output.\n\nSetting aside sixty minutes at sunrise with an open notebook or a clean markdown document allows ideas to crystallize without distraction. You are not reacting to the world; you are initiating a dialogue with your own intellect.\n\n### Designing the Ritual\n1. Disconnect all communication channels before sleeping.\n2. Keep your desk uncluttered—only your pen, journal, or text editor.\n3. Write the hardest paragraph first.\n\nThe quality of your thinking directly mirrors the quality of your attention. Protect it fiercely.",
+      "author": "6601a1b2c3d4e5f678901234",
+      "category": "6602a1b2c3d4e5f678901207",
+      "categoryName": "Lifestyle",
+      "tags": [
+        "Productivity",
+        "Rituals",
+        "Writing"
+      ],
+      "coverImage": "/uploads/blog_lifestyle_tea_1791021203342.jpg",
+      "status": "published",
+      "likes": [
+        "6601a1b2c3d4e5f678901235"
+      ],
+      "createdAt": "2026-02-22T08:30:00.000Z",
+      "updatedAt": "2026-02-22T08:30:00.000Z"
+    },
+    {
+      "_id": "6603a1b2c3d4e5f678901303",
+      "title": "Modern Typography: Rhythm, Contrast, and Restraint",
+      "content": "Digital typography is not merely about selecting an appealing font family. It is an architectural discipline governed by geometry, visual rhythm, and reading ergonomics.\n\nWhen we look at historical book design from the renaissance through mid-century modernism, the masters relied on a limited typographic palette: a distinguished serif for literary cadence, a neutral sans-serif for clarity, and strict typographic hierarchy.\n\n### The Golden Rules of Editorial Web Design\n- Never wrap simple metadata into candy pill capsules.\n- Constrain reading line lengths to 65–75 characters per measure.\n- Establish contrast through optical size and line-height, not garish rainbow colors.\n\nWhen readers open your article, typography should quietly guide the eye without shouting for attention.",
+      "author": "6601a1b2c3d4e5f678901235",
+      "category": "6602a1b2c3d4e5f678901205",
+      "categoryName": "UI/UX",
+      "tags": [
+        "Design",
+        "Typography",
+        "Editorial"
+      ],
+      "coverImage": "/uploads/blog_design_craft_1791021191503.jpg",
+      "status": "published",
+      "likes": [
+        "6601a1b2c3d4e5f678901236"
+      ],
+      "createdAt": "2026-02-28T14:15:00.000Z",
+      "updatedAt": "2026-02-28T14:15:00.000Z"
+    },
+    {
+      "_id": "6603a1b2c3d4e5f678901304",
+      "title": "Understanding MERN Stack Data Flow: From React to MongoDB",
+      "content": "To truly master full-stack JavaScript, you must build an intuition for the complete request-response journey across all four tiers of the MERN stack.\n\n### 1. The Client (React)\nA user types a title and clicks 'Publish'. React captures the input in state and issues an HTTP POST request using fetch or Axios, attaching the JWT bearer token in the headers.\n\n### 2. The Server (Express)\nThe request hits Express routing middleware. The authentication middleware verifies the cryptographic signature of the JWT token, extracts the user ID, and passes execution to the controller.\n\n### 3. The Controller & Model (Mongoose)\nThe controller validates incoming fields and constructs a Mongoose document. Mongoose casts data types and sends the serialized BSON command to the database socket.\n\n### 4. The Database (MongoDB)\nMongoDB Community Server writes the document to disk, updates indexes, and returns the generated document. The response flows all the way back to React to render the updated UI.\n\nDemystifying this cycle turns intimidating full-stack development into predictable, empowering engineering.",
+      "author": "6601a1b2c3d4e5f678901235",
+      "category": "6602a1b2c3d4e5f678901204",
+      "categoryName": "Web Development",
+      "tags": [
+        "React",
+        "Node.js",
+        "Express",
+        "MongoDB"
+      ],
+      "coverImage": "/uploads/blog_tech_future_1791021180515.jpg",
+      "status": "published",
+      "likes": [
+        "6601a1b2c3d4e5f678901234",
+        "6601a1b2c3d4e5f678901235",
+        "6601a1b2c3d4e5f678901236"
+      ],
+      "createdAt": "2026-03-01T16:00:00.000Z",
+      "updatedAt": "2026-03-01T16:00:00.000Z"
+    },
+    {
+      "_id": "6603a1b2c3d4e5f678901305",
+      "title": "Draft: The Future of Offline-First Web Architectures",
+      "content": "Work in progress exploring how modern browsers and local-first databases change user expectations around connectivity and data ownership. Notes on CRDTs and local storage engines.",
+      "author": "6601a1b2c3d4e5f678901235",
+      "category": "6602a1b2c3d4e5f678901202",
+      "categoryName": "Programming",
+      "tags": [
+        "Offline",
+        "LocalFirst",
+        "Draft"
+      ],
+      "coverImage": "",
+      "status": "draft",
+      "likes": [],
+      "createdAt": "2026-03-02T10:00:00.000Z",
+      "updatedAt": "2026-03-02T10:00:00.000Z"
+    },
+    {
+      "_id": "cf2f2ae406d27bd5ed67f585",
+      "title": "Quill.js Rich Text Integration Test",
+      "content": "<h2>Typography & Architecture</h2><p>Here is <strong>bold text</strong> and <em>italic prose</em> with a <a href=\"#\">link</a>.</p><ul><li>First item</li><li>Second item</li></ul><blockquote>A well-formatted quote block.</blockquote>",
+      "author": "6601a1b2c3d4e5f678901235",
+      "category": null,
+      "categoryName": "Programming",
+      "tags": [
+        "Quill",
+        "RichText"
+      ],
+      "coverImage": "",
+      "status": "published",
+      "likes": [],
+      "createdAt": "2026-10-03T10:06:15.211Z",
+      "updatedAt": "2026-10-03T10:06:15.211Z"
+    }
+  ],
+  "comments": [
+    {
+      "_id": "6604a1b2c3d4e5f678901401",
+      "blog": "6603a1b2c3d4e5f678901301",
+      "user": "6601a1b2c3d4e5f678901236",
+      "text": "This article resonated deeply. Too many tutorials jump straight to microservices without learning how powerful a clean Express and MongoDB setup really is.",
+      "createdAt": "2026-02-19T09:30:00.000Z"
+    },
+    {
+      "_id": "6604a1b2c3d4e5f678901402",
+      "blog": "6603a1b2c3d4e5f678901301",
+      "user": "6601a1b2c3d4e5f678901234",
+      "text": "Magnificent synthesis, Julian. Clean architecture always outlives passing trends.",
+      "createdAt": "2026-02-20T12:00:00.000Z"
+    },
+    {
+      "_id": "6604a1b2c3d4e5f678901403",
+      "blog": "6603a1b2c3d4e5f678901304",
+      "user": "6601a1b2c3d4e5f678901236",
+      "text": "The step-by-step breakdown of the 4 tiers is the clearest explanation I have read this year!",
+      "createdAt": "2026-03-01T18:45:00.000Z"
+    }
+  ],
+  "bookmarks": [
+    {
+      "_id": "6605a1b2c3d4e5f678901501",
+      "user": "6601a1b2c3d4e5f678901236",
+      "blog": "6603a1b2c3d4e5f678901301",
+      "createdAt": "2026-02-20T10:00:00.000Z"
+    },
+    {
+      "_id": "6605a1b2c3d4e5f678901502",
+      "user": "6601a1b2c3d4e5f678901236",
+      "blog": "6603a1b2c3d4e5f678901304",
+      "createdAt": "2026-03-01T19:00:00.000Z"
+    }
+  ]
+}

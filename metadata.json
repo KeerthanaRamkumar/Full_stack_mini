@@ -1,0 +1,8 @@
+{
+  "name": "Ink & Quill - Editorial Blogging Platform",
+  "description": "A full-stack modern MERN content management and editorial blogging platform featuring JWT auth, role management, author dashboard, categories, bookmarking, and local image uploads.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
